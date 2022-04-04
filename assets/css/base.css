@@ -133,15 +133,11 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    animation: fadeIn linear 0.7s;
+    animation: fadeIn linear 0.4s;
 }
 .container__product-banner:hover .container__banner {
     display: block;
     cursor: pointer;
-}
-
-.container__banner-img {
-
 }
 
 .container__desc {
@@ -165,7 +161,6 @@ html {
     -webkit-box-orient: vertical;
     overflow: hidden;
     -webkit-line-clamp: 1;
-
     text-decoration: none;
 }
 

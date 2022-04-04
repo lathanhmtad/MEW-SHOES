@@ -419,7 +419,12 @@
     font-size: 2rem;
     font-weight: 700;
     color: var(--text-color);
+    transition: 0.4s;
     text-decoration: none;
+}
+
+.collection__item-shoes-name:hover {
+    color: var(--primary-color);
 }
 
 .collection__item-desc {
@@ -490,10 +495,11 @@
     padding: 8px;
     cursor: pointer;
 }
-.collection__app-des {
 
+.collection__suggestions-container .container__product-name {
+    height: auto;
+    display: block;
 }
-
 
 
 /* Sneaker Thương hiệu */
